@@ -14,16 +14,13 @@ int main(){
 
     //More examples:
 
-    int age = 21;       //integer
-    float gpa = 2.75;    //floating point number
-    char grade = 'B';    //singe character
-    char name[] = "Robert";
+    int age = 21;           //integer
+    float gpa = 2.75;       //floating point number
+    char grade = 'B';       //singe character
+    char name[] = "Robert"; //array of character
 
     //display output
-    printf("Hello %s\n",name);
-    printf("You are %d years old\n",age);
-    printf("Your GPA is %.2f\n",gpa); /
-    printf("Your Grade is %c\n",grade);
+    printf("Hello %s\nYou are %d years old\nYour GPA is %.2f\nYour Grade is %c\n",name,age,gpa,grade);
 
     return 0;
 }
