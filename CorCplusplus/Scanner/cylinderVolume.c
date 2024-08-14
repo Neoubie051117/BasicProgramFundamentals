@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h> //(some IDE's doesn't need this they use clrsr(); to clear screen)
 #include <conio.h>
 
 int main(){
