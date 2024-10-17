@@ -28,11 +28,11 @@ int main(){
 
     //Display Output
 
-    printf("%c      \n",a); //character
-    printf("%s      \n",b); //character array
+    printf("character: %c      \n",a); //character
+    printf("character array: %s      \n",b); //character array
     printf("%f      \n",c); //float
     printf("%lf     \n",d); //double: means long float (precise)
-    printf("%d      \n",e); //bool
+    printf("boolean: %d      \n",e); //bool
     printf("%d      \n",f); //character as numeric value
     printf("%d      \n",g); //unsigned character as numeric value
     printf("%d      \n",h); //short

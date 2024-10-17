@@ -1,21 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
-int main(){
+
+void clrscr(){
     system("cls");
-    int limit, counter = 0;
-    
-    printf("Enter a number: ");
-    scanf("%d",&limit);
-    
-    while(counter < limit){
-        
-        if(counter % 2 == 0){
-            continue;
-            printf("%d ",counter);
-            counter++;
-        }
-    }
-    
+}
+
+
+int main() {
+    clrscr();
+    int x, y;
+    bool answer;
+
+    printf("Enter value of (x): ");
+    scanf("%d",&x);
+    printf("Enter value of (y): ");
+    scanf("%d",&y);
+    printf("\n");
+
+    printf("true: 1 \nfalse: 0 \n");
+    if(x == y){
+        answer = true;
+        printf("%d == %d answer %d or %d\n",x, y, x == y, answer);
+    } 
+    printf("%d != %d answer %d\n",x, y, x != y);
+    printf("%d > %d answer %d\n",x, y, x > y);
+    printf("%d < %d answer %d\n",x, y, x < y);
+    printf("%d >= %d answer %d\n",x, y, x >= y);
+    printf("%d <= %d answer %d\n",x, y, x <= y);
+
     return 0;
 }
